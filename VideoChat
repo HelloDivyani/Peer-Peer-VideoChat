@@ -1,0 +1,23 @@
+Peer - Peer Video  Application using Javascript and WebRTC :
+1.Getting Node Version :
+node -v
+  6.9.5
+Installing Packages :
+npm -v
+  3.10.10
+npm init
+budo watchify
+npm is package manager for javascript
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Simple Peer -  WebRTC (Video/Audio Calls) :
+budo is development server based on browserify
+
+
+var peer = new Peer({
+	initiator: location.hash === '#init',
+	trickle: false
+
+})
+
+By this we have initialized the peer which would be the initial peer
+<pre> tag is used for indicating the preformatted text
