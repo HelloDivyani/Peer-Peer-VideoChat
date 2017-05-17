@@ -21,3 +21,5 @@ var peer = new Peer({
 
 By this we have initialized the peer which would be the initial peer
 <pre> tag is used for indicating the preformatted text
+-----------------------------------------
+For implementing the video Chat :
